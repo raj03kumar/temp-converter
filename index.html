@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature</title>
+    <!-- Google Fonts (poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Temperature Converter</h1>
+
+    <div class="units">
+        <div class="panel">
+            <!-- In order to write the "degree symbol", we can type &deg; -->
+            <h1 class="bg-unit">&deg;C</h1>
+            <h2>Celsius</h2>
+            <input type="number" id="celsius" value="0">
+        </div>
+        <div class="panel">
+            <h1 class="bg-unit">&deg;F</h1>
+            <h2>Fahrenheit</h2>
+            <input type="number" id="fahrenheit" value="32">
+        </div>
+        <div class="panel">
+            <h1 class="bg-unit">K</h1>
+            <h2>Kelvin</h2>
+            <input type="number" id="kelvin" value="273.15">
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
